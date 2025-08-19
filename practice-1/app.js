@@ -8,3 +8,18 @@ document.getElementById("update-btn").addEventListener("click",function(){
 
     updateTitle.innerText = "My First Website Title With JavaScript";
 })
+
+
+
+document.getElementById("update-name-btn").addEventListener('click',function(){
+    
+
+    const inputName = document.getElementById('input-name');
+       const name = inputName.value;
+       
+
+      const nameHeading =  document.getElementById('name-heading');
+
+       nameHeading.innerText = name;
+        
+})
